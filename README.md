@@ -1,9 +1,3 @@
-Hello,
-
-thank you for purchusing GARO ESTATE Template. 
- 
-
-
 
 ## PAGES INCLUDED ##
  
