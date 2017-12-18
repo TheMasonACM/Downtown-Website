@@ -1582,6 +1582,7 @@ padding: 0 0 0.5em;
 .color{
     color:#9B9B9B;
 }
+
 .orange{
     color:orange;
 }
@@ -2682,7 +2683,13 @@ padding-bottom: 15px;
     top: 0px;
     width: 100%;
 }
-
+.container-fluid{
+   margin:0 auto;
+   width:1000px;
+   padding-top: 50px;
+   padding-bottom: 50px;
+}
+}
 .profiel-container  .btn-finish{
     width: auto;
 }
