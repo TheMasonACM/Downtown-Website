@@ -16,7 +16,7 @@
 }
 .modal-header {
     border: 0 none;
-    
+
 }
 .wizard-card .wizard-header h3 b{
     text-transform: uppercase;
@@ -136,7 +136,7 @@
     overflow: hidden;
     border-radius: 50%;
     border: 1px solid #333333;
-    width: 60px; 
+    width: 60px;
     float: left;
 }
 .logo-container .brand{
@@ -189,7 +189,7 @@ label{
     z-index: 3;
 }
 .wizard-card{
-padding: 10px 0px; 
+padding: 10px 0px;
 border: 1px solid #eee;
     transition: all 0.2s;
     -webkit-transition: all 0.2s;
@@ -224,7 +224,7 @@ margin: 35px auto;
     border-color: #3472f7;
 }
 .wizard-card.ct-wizard-orange .picture:hover{
-    border-color: #FDC600;
+    border-color: #3FA2A;
 }
 .wizard-card.ct-wizard-red .picture:hover{
     border-color: #ff3b30;
@@ -242,7 +242,7 @@ margin: 35px auto;
 
 .wizard-card .picture-src{
     width: 100%;
-    
+
 }
 .wizard-card .tab-content{
     min-height: 340px;
@@ -281,7 +281,7 @@ margin: 35px auto;
     background-color: #3472f7;
 }
 .wizard-card.ct-wizard-orange .nav-pills > li.active a{
-    background-color: #FDC600;
+    background-color: #3FA2A;
 }
 .wizard-card.ct-wizard-red .nav-pills > li.active a{
     background-color: #ff3b30;
@@ -290,7 +290,7 @@ margin: 35px auto;
 .wizard-card .nav-pills > li > a:hover, .wizard-card .nav-pills > li > a:focus{
     background-color: #999999;
     cursor: default;
-} 
+}
 .wizard-card .btn{
     text-transform: uppercase;
 }
@@ -343,7 +343,7 @@ margin: 35px auto;
     border-color: #05ae0e;
 }
 .wizard-card.ct-wizard-orange .choice:hover .icon, .wizard-card.ct-wizard-orange .choice.active .icon{
-    border-color: #FDC600;
+    border-color: #3FA2A;
 }
 .wizard-card.ct-wizard-red .choice:hover .icon, .wizard-card.ct-wizard-red .choice.active .icon{
     border-color: #ff3b30;
