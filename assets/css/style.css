@@ -1011,8 +1011,9 @@ label small{
     height: 630px
 }
 #bg-slider .item img{
-    width: 100%;
+    width: 75%;
     height: 630px
+    text-align: center;
 }
 
 .slider-content{
@@ -1020,7 +1021,8 @@ label small{
     top: 20%;
     text-align: center;
     color: #FFF;
-    width: 100%;
+    width: 75%;
+
 }
 .slider-content h2 {
     font-size: 40px;
@@ -1032,6 +1034,7 @@ font-weight: 500;
     font-size: 14px;
     margin-bottom: 60px;
     color: rgb(110, 110, 110);
+    text-align: center;
 }
 
 .slider .owl-theme .owl-controls {
