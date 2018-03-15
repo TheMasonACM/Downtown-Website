@@ -735,7 +735,7 @@ label small{
     margin-right: 20px
 }
 .navbar-brand {
-
+    padding: 4px;
 }
 .main-nav {
     padding-top: 10px;
@@ -1018,9 +1018,9 @@ label small{
 .slider-content{
     position: absolute;
     top: 20%;
-    text-align: center;
     color: #FFF;
     width: 100%;
+
 }
 .slider-content h2 {
     font-size: 40px;
