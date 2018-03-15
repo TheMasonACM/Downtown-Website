@@ -2891,7 +2891,7 @@ font-size: 13px;
     text-decoration: none;
 }
 .footer-menu li{
-  border-bottom: 1px solid rgba(255, 171, 0, 0.31);
+  border-bottom: 1px solid rgb(63,174,42);
 }
 
 .footer-copy span{
@@ -3023,7 +3023,6 @@ padding: 10px;
     color: #3fae2a;
 }
 /* Preloader */
-
 #preloader {
     position:fixed;
     top:0;
@@ -3050,4 +3049,5 @@ padding: 10px;
 }
 #map {
     height: 300px;
+
 }
