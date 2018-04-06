@@ -9,3 +9,5 @@ for (var i = 0; i < arrAll.length; i++) {
         arrBusinesses.push(arrAll[i]);
     }
 }
+var am = new ArrayWriter(arrMembers);
+var anm = new ArrayWriter(arrBusinesses);
