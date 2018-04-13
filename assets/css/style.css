@@ -14,6 +14,9 @@ body {
     background: #fff;
     position: relative;
 }
+legend {
+    padding-left: 20px;
+}
 /*           Font Smoothing      */
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p, .navbar, .brand, .btn-simple{
@@ -3047,6 +3050,8 @@ padding: 10px;
 .prop-btm-sheaerch {
     display: none
 }
+
+
 #map {
     height: 300px;
 
