@@ -7,7 +7,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Downtown Mason</title>
+        <title>Downtown Mason | Volunteering</title>
         <meta name="description" content="GARO is a real-estate template">
         <meta name="author" content="Kimarotec">
         <meta name="keyword" content="html5, css, bootstrap, property, real-estate theme , bootstrap template">
@@ -25,6 +25,8 @@
         <link href="assets/fonts/icon-7-stroke/css/helper.css" rel="stylesheet">
         <link href="assets/css/animate.css" rel="stylesheet" media="screen">
         <link rel="stylesheet" href="assets/css/bootstrap-select.min.css">
+	<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css">
+    	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" href="assets/css/icheck.min_all.css">
         <link rel="stylesheet" href="assets/css/price-range.css">
@@ -164,54 +166,55 @@
 
                         </div>
                     </div>
-                    <form class="form-horizontal" onsubmit="sendEmail()">
-			<fieldset>
+                    <form id="gform" class="form-horizontal" method="POST" action="https://script.google.com/macros/s/AKfycbxlM5mwi78HaQi50tDJEGhyitc7R-s02sliGcmUiiFIl9t9ZPY/exec">
+		    	<fieldset>
 				<legend>Volunteering Help Form</legend>
 				<div class="form-group">
 					<label class="col-md-4 control-label" for="textinput">First Name</label>
-				 		<div class="col-md-4">
-				 			<input id="tiFirstName" name="tiFirstName" type="text" placeholder="Enter First Name" class="form-control input-md" required="">
-				 		</div>
+				 	<div class="col-md-4">
+				 		<input id="tiFirstName" name="First Name" type="text" placeholder="Enter First Name" class="form-control input-md" required="">
+				 	</div>
 				</div>
 				<div class="form-group">
 					<label class="col-md-4 control-label" for="textinput">Last Name</label>
-				 		<div class="col-md-4">
-				 			<input id="tiLastName" name="tiLastName" type="text" placeholder="Enter Last Name" class="form-control input-md" required="">
-				 		</div>
+				 	<div class="col-md-4">
+				 		<input id="tiLastName" name="Last Name" type="text" placeholder="Enter Last Name" class="form-control input-md" required="">
+				 	</div>
 				</div>
 				<div class="form-group">
 					<label class="col-md-4 control-label" for="textinput">Business</label>
-						<div class="col-md-4">
-				 			<input id="tiBusiness" name="tiBusiness" type="text" placeholder="Enter Business" class="form-control input-md" required="">
-						</div>
+					<div class="col-md-4">
+				 		<input id="tiBusiness" name="Business" type="text" placeholder="Enter Business" class="form-control input-md" required="">
+					</div>
 				</div>
 				<div class="form-group">
 					<label class="col-md-4 control-label" for="textinput">Phone Number</label>
-						<div class="col-md-4">
-							<input id="tiPhoneNumber" name="tiPhoneNumber" type="text" placeholder="Enter Phone Number" class="form-control input-md" required="">
-						</div>
+					<div class="col-md-4">
+						<input id="tiPhoneNumber" name="Phone Number" type="text" placeholder="Enter Phone Number" class="form-control input-md" required="">
+					</div>
 				</div>
 				<div class="form-group">
 					<label class="col-md-4 control-label" for="textInput">Email Address</label>
 					<div class="col-md-4">
-							<input id="tiEmail" name="tiEmail" type="text" placeholder="Enter Email Address" class="form-control input-md" required="">
+						<input id="tiEmail" name="Email Address" type="email" placeholder="Enter Email Address" class="form-control input-md" required="">
 					</div>
 				</div>
 				<div class="form-group">
 					<label class="col-md-4 control-label" for="textarea">Areas of Interest</label>
-						<div class="col-md-4">
-							<textarea class="form-control" id="taAreas" name="taAreas" placeholder="Enter Areas of Interest" required></textarea>
+					<div class="col-md-4">
+						<textarea class="form-control" id="taAreas" name="Areas of Interest" placeholder="Enter Areas of Interest" required></textarea>
 					</div>
 				</div>
 				<div class="form group">
-					<label class="col-md-4 control-label" for="submit">Submit</label>
-					<div class="col-md-4">
-						<input type="submit" name="submit" value="Submit" class="form-control input-md">
-					</div>
+					<button class="button-success pure-button button-xlarge">
+			    		<i class="fa fa-paper-plane"></i>&nbsp;Send</button>
 				</div>
-		</fieldset>
+			</fieldset>
 		</form>
-
+		<div style="display:none;" id="thankyou_message">
+            		<h2><em>Thanks</em> for contacting us! We will get back to you soon!</h2>
+       		</div>
+			
                     <div class="col-md-4 p0">
                         <aside class="sidebar sidebar-property blog-asside-right">
                             <div class="dealer-widget">
@@ -358,7 +361,9 @@
         <script src="assets/js/price-range.js"></script>
         <script type="text/javascript" src="assets/js/lightslider.min.js"></script>
         <script src="assets/js/main.js"></script>
-        <!-- idk area-->
+	<script data-cfasync="false" type="text/javascript"
+  	src="https://cdn.rawgit.com/dwyl/learn-to-send-email-via-google-script-html-no-server/master/form-submission-handler.js"></script>
+	<!-- idk area-->
         <script>
                             $(document).ready(function () {
 
