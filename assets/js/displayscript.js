@@ -2,7 +2,6 @@ var arrAll = [`A Violin Makers Workshop` ,`Afidence*` ,`Air Authority Heating & 
 var arrBusinesses = [];
 var arrMembers = [];
 for (var i = 0; i < arrAll.length; i++) {
-    console.log(arrAll[i]);
     if (arrAll[i].includes("*")) {
         arrMembers.push(arrAll[i].substring(0, arrAll[i].length - 1));
     }
