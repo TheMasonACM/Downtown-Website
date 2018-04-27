@@ -20,4 +20,4 @@ function emptyFunc(eString) {
     return eString;
 }
 var allMaker = new ArrayWriter(arrAll);
-allMaker.writeArrayConditionalModifiable("<li class=\"acm-blue\" style=\"color:#FF6B00;\">","</li>","<li class=\"acm-red\" style=\"color:#00A131;\">","</li>",containsSpecial,removeEnding,emptyFunc);
+allMaker.writeArrayConditionalModifiable("<li style=\"color:#FF6B00;\">","</li>","<li style=\"color:#00A131;\">","</li>",containsSpecial,removeEnding,emptyFunc);
