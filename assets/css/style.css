@@ -22,6 +22,7 @@ legend {
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p, .navbar, .brand, .btn-simple{
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
+    font-family: 'Rubik', sans-serif;
 }
 
 /*           Typography          */
@@ -39,7 +40,7 @@ h2, .h2{
 h3, .h3{
     font-size: 28px;
     margin: 20px 0 10px;
-}
+    }
 h4, .h4{
     font-size: 22px;
 }
