@@ -16,8 +16,23 @@ body {
 }
 legend {
     padding-left: 20px;
+    text-align:center;
+    font-family: 'Rubik', sans-serif;
+    padding-top:30px;
+    color: #03a2e1;
+}
+
+hr.hline{
+    border-top: 3px solid #ff6b00;
+
+}
+
+form{
+    color:#3fae2a;
 }
 /*           Font Smoothing      */
+
+
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p, .navbar, .brand, .btn-simple{
     -moz-osx-font-smoothing: grayscale;
@@ -2128,7 +2143,7 @@ single property page
 }
 .dealer-contacts{
     list-style: outside none none;
-    padding: 30px 0px 0px 10px;
+    padding: 0px 0px 0px 10px;
 }
 .dealer-contacts li i{
     color: black;
