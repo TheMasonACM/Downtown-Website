@@ -1,5 +1,6 @@
 const numAds = 3;
 const outerDiv = "class=item";
+const outerDivActive = "class=item active";
 const innerDiv = 'class="carousel-caption"';
 
 arrImg = ["assets/img/Mason-oh.jpg", "assets/img/Mason-oh.jpg", "assets/img/Mason-oh.jpg"];
