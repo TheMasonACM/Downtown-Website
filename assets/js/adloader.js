@@ -8,8 +8,8 @@ arrAlt = ["Afidence", "Comey & Sheperd – Jessica Mills", "Eco Development Grou
 arrHeader = arrAlt;
 arrDescription = ["Providing unbiased, real-time business and IT solutions.", "Brokering fine home since 1946.", "Delivering efficient, sustainable energy related solutions nation-wide."];
 
-for (var i = 1; i < numAds; i++) {
-    document.write("<div " + outerDiv + ">");
+for (var i = 0; i < numAds; i++) {
+    document.write("<div " + ((i == 0) ? outerDivActive : outerDiv) + ">");
     document.write('<img src="' + arrImg[i] + '"' + ' alt = "' + arrAlt[i] + '">');
     document.write("<div " + innerDiv + ">");
     document.write("<h3>" + arrHeader[i] + "</h3>");
